@@ -25,7 +25,7 @@ export const NFTProvider = ({ children }) => {
   console.log('client: ', client);
   const [currentAccount, setCurrentAccount] = useState('');
   const [isLoadingNFT, setIsLoadingNFT] = useState(false);
-  const nftCurrency = 'ETH';
+  const nftCurrency = 'XFI';
 
   const checkIfWalletIsConnected = async () => {
     if (!window.ethereum) return alert('Please install MetaMask');
@@ -165,9 +165,7 @@ export const NFTProvider = ({ children }) => {
     setIsLoadingNFT(false);
 
     // Replace with your own RPC endpoint
-    const provider = new ethers.JsonRpcProvider(
-      'https://testnet-rpc.ubitscan.io/'
-    );
+    const provider = new ethers.JsonRpcProvider('https://rpc.testnet.ms/');
     const contract = fetchContract(provider);
 
     const data = await contract.fetchMarketItems();
@@ -329,7 +327,7 @@ export const NFTProvider = ({ children }) => {
     const connection = await web3Modal.connect();
     console.log('connection ====>', connection);
     // const provider = new ethers.JsonRpcProvider(
-    //   'https://eth-sepolia.g.alchemy.com/v2/0Hy758w6BteirxoloAs_K_vgQhMZuCIc'
+    //   'https://crossfi-testnet.g.alchemy.com/v2/0Hy758w6BteirxoloAs_K_vgQhMZuCIc'
     // );
     const provider = new ethers.BrowserProvider(window.ethereum);
     const signer = await provider.getSigner();

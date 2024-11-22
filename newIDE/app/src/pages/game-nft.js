@@ -108,7 +108,7 @@ const Gamenft = () => {
         <input
           type="number"
           step="0.0001"
-          placeholder="Price (ETH)"
+          placeholder="Price (XFI)"
           // value={price}
           onChange={e => handleInputChange('price', e.target.value)}
         />

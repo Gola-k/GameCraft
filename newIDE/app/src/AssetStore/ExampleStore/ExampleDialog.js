@@ -134,9 +134,8 @@ export function ExampleDialog({
         {!isCompatible && (
           <AlertMessage kind="error">
             <Trans>
-              Unfortunately, this example requires a newer version of
-              ClickEngine to work. Update ClickEngine to be able to open this
-              example.
+              Unfortunately, this example requires a newer version of GameCraft
+              to work. Update GameCraft to be able to open this example.
             </Trans>
           </AlertMessage>
         )}

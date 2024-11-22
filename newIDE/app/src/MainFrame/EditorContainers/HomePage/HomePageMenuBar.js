@@ -102,7 +102,7 @@ const HomePageMenuBar = ({
       ),
     },
     {
-      label: <Trans>About ClickEngine</Trans>,
+      label: <Trans>About GameCraft</Trans>,
       id: 'about-gdevelop',
       onClick: () => {},
       // onClick: onOpenAbout,

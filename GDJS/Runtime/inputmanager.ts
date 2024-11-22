@@ -470,7 +470,7 @@ namespace gdjs {
     }
 
     /**
-     * Add 2 to the identifier to avoid identifiers taking the ClickEngine default
+     * Add 2 to the identifier to avoid identifiers taking the GameCraft default
      * variable value which is 0 and reserve 1 for the mouse.
      * @param rawIdentifier The identifier given by the browser.
      * @returns The identifier used in events.

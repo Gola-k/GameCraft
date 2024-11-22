@@ -78,7 +78,7 @@ class Bootstrapper extends Component<{}, State> {
     installAnalyticsEvents();
     GD_STARTUP_TIMES.push(['bootstrapperComponentDidMount', performance.now()]);
 
-    // Load ClickEngine.js, ensuring a new version is fetched when the version changes.
+    // Load GameCraft.js, ensuring a new version is fetched when the version changes.
     loadScript(
       `./libGD.js?cache-buster=${VersionMetadata.versionWithHash}`
     ).then(() => {
@@ -139,10 +139,10 @@ class Bootstrapper extends Component<{}, State> {
       : 'Please restart the application or reinstall the latest version if the problem persists.';
 
     this.setState({
-      loadingMessage: `Unable to load ClickEngine. ${message}`,
+      loadingMessage: `Unable to load GameCraft. ${message}`,
     });
     showErrorBox({
-      message: `Unable to load ClickEngine. ${message}`,
+      message: `Unable to load GameCraft. ${message}`,
       rawError,
       errorId: 'editor-load-error',
     });

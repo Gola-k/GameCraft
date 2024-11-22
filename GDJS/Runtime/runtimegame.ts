@@ -73,7 +73,7 @@ namespace gdjs {
 
     /**
      * the token to use by the game engine when requiring any resource stored on
-     * ClickEngine Cloud buckets. Note that this is only useful during previews.
+     * GameCraft Cloud buckets. Note that this is only useful during previews.
      */
     gdevelopResourceToken?: string;
 

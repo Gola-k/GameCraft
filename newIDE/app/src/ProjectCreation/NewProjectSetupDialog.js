@@ -496,7 +496,7 @@ const NewProjectSetupDialog = ({
                   <SelectOption
                     key={storageProvider.internalName}
                     value={storageProvider.internalName}
-                    label={t`ClickEngine Cloud`}
+                    label={t`GameCraft Cloud`}
                     disabled={storageProvider.disabled}
                   />
                 ))}

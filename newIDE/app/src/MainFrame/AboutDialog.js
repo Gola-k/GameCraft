@@ -280,11 +280,11 @@ const AboutDialog = ({ onClose, updateStatus }: Props) => {
 
   return (
     <Dialog
-      title={<Trans>About ClickEngine</Trans>}
+      title={<Trans>About GameCraft</Trans>}
       actions={[
         <FlatButton
           key="website"
-          label={<Trans>ClickEngine Website</Trans>}
+          label={<Trans>GameCraft Website</Trans>}
           primary={false}
           onClick={() => Window.openExternalURL('')}
         />,

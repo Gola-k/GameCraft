@@ -253,9 +253,7 @@ const MainPage = ({
           </Line>
           <Line noMargin>
             <Text noMargin>
-              <Trans>
-                Learn everything about ClickEngine from the ground up
-              </Trans>
+              <Trans>Learn everything about GameCraft from the ground up</Trans>
             </Text>
           </Line>
           {limits &&

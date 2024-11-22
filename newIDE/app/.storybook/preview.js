@@ -10,13 +10,13 @@ export const globalTypes = {
   themeName: {
     name: 'Theme',
     description: 'Global theme for components',
-    defaultValue: 'ClickEngine default Dark',
+    defaultValue: 'GameCraft default Dark',
     toolbar: {
       icon: 'circlehollow',
       // See theme names in ThemeRegistry.js
       items: [
-        'ClickEngine default Dark',
-        'ClickEngine default Light',
+        'GameCraft default Dark',
+        'GameCraft default Light',
         'Blue Dark',
         'Nord',
         'Solarized Dark',

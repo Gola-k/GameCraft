@@ -31,7 +31,7 @@ export const GameProvider = ({ children }) => {
   const [accessID, setAccessID] = useState('');
   const [boughtNFTs, setBoughtNFTs] = useState([]);
   const [isTransactionInProgress, setIsTransactionInProgress] = useState(false);
-  const nftCurrency = 'ETH';
+  const nftCurrency = 'XFI';
 
   const generateAccessId = () => {
     const timestamp = Date.now();
@@ -299,7 +299,7 @@ export const GameProvider = ({ children }) => {
 
     try {
       const provider = new ethers.JsonRpcProvider(
-        'https://eth-sepolia.g.alchemy.com/v2/0Hy758w6BteirxoloAs_K_vgQhMZuCIc'
+        'https://crossfi-testnet.g.alchemy.com/v2/0Hy758w6BteirxoloAs_K_vgQhMZuCIc'
       );
 
       const contract = fetchContract(provider);

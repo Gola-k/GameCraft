@@ -60,8 +60,8 @@ export const loadPreferencesFromLocalStorage = (): ?PreferencesValues => {
     }
 
     // Migrate renamed themes.
-    if (values.themeName === 'ClickEngine default') {
-      values.themeName = 'ClickEngine default Light';
+    if (values.themeName === 'GameCraft default') {
+      values.themeName = 'GameCraft default Light';
     } else if (values.themeName === 'Dark') {
       values.themeName = 'Blue Dark';
     }

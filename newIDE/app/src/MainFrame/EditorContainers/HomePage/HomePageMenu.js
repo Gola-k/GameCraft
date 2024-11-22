@@ -191,7 +191,7 @@ export const HomePageMenu = ({
       ),
     },
     {
-      label: <Trans>About ClickEngine</Trans>,
+      label: <Trans>About GameCraft</Trans>,
       id: 'about-gdevelop',
       // onClick: onOpenAbout,
       onClick: () => {},
