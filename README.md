@@ -2,7 +2,7 @@ GameCraft is a full-featured, no-code, web3 game development software. You can b
 
 ## Open the netlify link here
 
-[GameCraft-Netlify](https://6681a1a8fab9d0611bb7b231--polite-pixie-86e8ff.netlify.app/)
+[GameCraft-Vercel](https://gamecraft.vercel.app/)
 
 ## Overview of the architecture
 
